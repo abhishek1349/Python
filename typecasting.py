@@ -7,3 +7,8 @@ gpa=3.8
 print(type(name))  # Output: <class 'str'>
 print(type(age))   # Output: <class 'int'>
 print(type(gpa))   # Output: <class 'float'>
+age=str(age)  # Converting integer to string
+gpa=int(gpa)  # Converting float to integer
+print(type(age))  # Output: <class 'str'>
+print(type(gpa))  # Output: <class 'int'>
+print(f"My name is {name}, I am {age} years old and my GPA is {gpa}.")
